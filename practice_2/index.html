@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      /*function isOdd(number) {
+        let rem = number % 2;
+        let isOdd = rem == 1;
+        return isOdd;
+      }
+      console.log(isOdd(89)); */
+
+      /*function Larger(num1, num2) {
+       return num1>num2 ? num1 : num2;
+      }
+      console.log(Larger(7, 3));*/
+
+      let product = {
+        size: "S",
+        name: "Jeans",
+        fit: "Slim Fit",
+        "delivery-time": "same day delivery",
+      };
+
+      let copyProduct = product;
+      console.log(product);
+      copyProduct.size = "M";
+      console.log(product);
+      copyProduct.name = "Moms Fit";
+      console.log(product);
+
+      console.log(product["delivery-time"]);
+    </script>
+  </body>
+</html>
